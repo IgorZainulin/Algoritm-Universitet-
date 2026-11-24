@@ -1,0 +1,60 @@
+# Создано https://www.toptal.com/developers/gitignore/api/wintersmith,windows,microsoftoffice
+# Редактировать на https://www.toptal.com/developers/gitignore?templates=wintersmith,windows,microsoftoffice
+
+### MicrosoftOffice ###
+*.tmp
+
+# Временные файлы Word
+~$*.doc*
+
+# Файл автоматического резервного копирования Word
+Резервная копия *.doc*
+
+# Временные файлы Excel
+~$*.xls*
+
+# Файл резервной копии Excel
+*.xlk
+
+# Временные файлы PowerPoint
+~$*.ppt*
+
+# Временные файлы автосохранения Visio
+*.~vsd*
+
+### Windows ###
+# Файлы кэша миниатюр Windows
+Thumbs.db
+Thumbs.db: с возможностью шифрования
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+*.stackdump
+
+# Файл конфигурации папки
+[Dd]esktop.ini
+
+# Корзина, используемая на файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы установщика Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Ярлыки Windows
+*.lnk
+
+### Wintersmith ###
+contents/
+node_modules/
+plugins/
+templates/
+config.json
+package.json
+
+
+# Конец https://www.toptal.com/developers/gitignore/api/wintersmith,windows,microsoftoffice
